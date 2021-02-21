@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>tabliczka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous">
+    <style>
+p {
+  text-align: center;
+  font-size: 60px;
+}
+
+    </style>
+</head>
+<body>
+<div th:replace="fragments/navmenu.html" :: div.navmenu/>
+<div th:replace="fragments/scripts.html" :: div.scripts-bootstrap/>
+<p id="timer"></p>
+<script>
+var deadline = new Date().getTime()+60000;
+var x = setInterval(function() {
+var now = new Date().getTime();
+var t = deadline - now;
+var seconds = Math.floor((t% (1000 * 60)) / 1000);
+
+document.getElementById("timer").innerHTML = seconds;
+    if (t < 0) {
+        clearInterval(x);
+        document.getElementById("timer").innerHTML = "CZAS MINĄŁ, ALE DOKOŃCZ QUIZ ŻEBY ZOBACZYĆ ODPOWIEDZI!";
+    }
+}, 1000);
+
+</script>
+<h1>Pytania:</h1>
+<form action="#" th:action="@{/resultMaster}" th:object="${form}" method="post">
+    <div class="input-group mb-3" th:each="question, itemStat: ${form.questions}">
+        <input hidden th:name="|questions[${itemStat.index}].id|" th:value="${question.getId()}"/>
+        <input hidden th:name="|questions[${itemStat.index}].number1|" th:value="${question.getNumber1()}"/>
+        <input hidden th:name="|questions[${itemStat.index}].number2|" th:value="${question.getNumber2()}"/>
+        <input hidden th:name="|questions[${itemStat.index}].answer|" th:value="${question.getAnswer()}"/>
+        <span class="input-group-text">
+            <div th:text="${question.number1}"/></span>
+        <span class="input-group-text">*</span>
+        <span class="input-group-text">
+            <div th:text="${question.number2}"/></span>
+        <span class="input-group-text">=</span>
+        <span class="input-group-text">
+            <input th:name="|questions[${itemStat.index}].answerUser|" th:value="${question.getAnswerUser()}" required
+                   type="number" class="form-control"/></span>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Sprawdź</button>
+    </div>
+</form>
+</body>
+</html>

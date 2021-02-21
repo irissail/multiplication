@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>tabliczka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+          crossorigin="anonymous">
+</head>
+<body>
+<div th:replace="fragments/navmenu.html" :: div.navmenu/>
+<div th:replace="fragments/scripts.html" :: div.scripts-bootstrap/>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Poziom podstawowy</h5>
+                <p class="card-text">Sprawdź czy znasz tabliczkę mnożenia na poziomie szkoły podstawowej. Odpowiedz
+                    poprawnie na 10 pytań w czasie 40 sekund.</p>
+                <a class="nav-link active" aria-current="page" href="#">
+                    <form action="/basic">
+                        <button type="submit" class="btn btn-info">Zagraj</button>
+                    </form>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Poziom zaawansowany</h5>
+                <p class="card-text">Sprawdź się na trudniejszych (dwucyfrowych) liczbach. Graj uczciwie - bez
+                    kalkulatora! Odpowiedz poprawnie na 10 pytań w czasie 60 sekund.</p>
+                <a class="nav-link active" aria-current="page" href="#">
+                    <form action="/master">
+                        <button type="submit" class="btn btn-warning">Zagraj</button>
+                    </form>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
