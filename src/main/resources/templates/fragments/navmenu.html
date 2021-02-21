@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
 
 </head>
@@ -42,6 +42,29 @@
                     </ul>
                 </li>
             </ul>
+            <span sec:authorize="not isAuthenticated()">
+                <p class="nav-item">
+                <form class="d-flex" action="/login">
+                    <button class="btn btn-outline-success" type="submit">Zaloguj się</button>
+                </form>
+                </p>
+                <p class="nav-item">
+                <form class="d-flex" action="/registration">
+                    <button class="btn btn-outline-success" type="submit">Zarejestruj się</button>
+                </form>
+                </p>
+            </span>
+
+            <span sec:authorize="isAuthenticated()">
+                <p class="nav-item">
+                    <span sec:authentication="name"/>
+                </p>
+                <p class="nav-item">
+                <form action="/logout">
+                    <button class="btn btn-outline-success" type="submit">Wyloguj</button>
+                </form>
+                </p>
+            </span>
         </div>
     </div>
 </nav>

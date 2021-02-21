@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1637733d-6aef-4dbe-b90c-d085d1d461f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/navmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/navmenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/MultiplicationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/MultiplicationApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/navmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/navmenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gosia/multiplication/MultiplicationApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gosia/multiplication/MultiplicationApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nDCn3hxUotyjYzvjxusjHVRdEd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gosia.multiplication" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MultiplicationApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.gosia.multiplication.MultiplicationApplication" />
+      <module name="multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gosia.multiplication.security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1637733d-6aef-4dbe-b90c-d085d1d461f9" name="Default Changelist" comment="" />
+      <created>1610915437421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610915437421</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="193" key="#Auto_Import" timestamp="1611694759890">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="709" y="193" key="#Auto_Import/0.23.1440.877@0.23.1440.877" timestamp="1611694759890" />
+    <state x="208" y="43" key="#Project_Structure" timestamp="1613939202395">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="#Project_Structure/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613939202395" />
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613942415777">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613942415777" />
+    <state x="544" y="309" key="#com.intellij.ide.util.MemberChooser" timestamp="1613254444160">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="544" y="309" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613254444160" />
+    <state x="544" y="309" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1611001471050" />
+    <state x="0" y="23" width="1440" height="877" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613081072372">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="23" width="1440" height="877" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613081072372" />
+    <state x="525" y="224" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611779086513">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="525" y="224" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1611779086513" />
+    <state x="525" y="224" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1611696984990" />
+    <state x="483" y="172" key="#xdebugger.evaluate" timestamp="1611523152253">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="483" y="172" key="#xdebugger.evaluate/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1611523152253" />
+    <state width="1398" height="409" key="GridCell.Tab.0.bottom" timestamp="1613943136328">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="409" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613943136328" />
+    <state width="1398" height="377" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1613773634887" />
+    <state width="1398" height="409" key="GridCell.Tab.0.center" timestamp="1613943136327">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="409" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613943136327" />
+    <state width="1398" height="377" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1613773634886" />
+    <state width="1398" height="409" key="GridCell.Tab.0.left" timestamp="1613943136326">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="409" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613943136326" />
+    <state width="1398" height="377" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1613773634885" />
+    <state width="1398" height="409" key="GridCell.Tab.0.right" timestamp="1613943136327">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="409" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613943136327" />
+    <state width="1398" height="377" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1613773634887" />
+    <state width="1398" height="387" key="GridCell.Tab.1.bottom" timestamp="1613679896723">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="387" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613679896723" />
+    <state width="1398" height="387" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611694123300" />
+    <state width="1398" height="387" key="GridCell.Tab.1.center" timestamp="1613679896722">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="387" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613679896722" />
+    <state width="1398" height="387" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1611694123299" />
+    <state width="1398" height="387" key="GridCell.Tab.1.left" timestamp="1613679896722">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="387" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613679896722" />
+    <state width="1398" height="387" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1611694123299" />
+    <state width="1398" height="387" key="GridCell.Tab.1.right" timestamp="1613679896723">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="387" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613679896723" />
+    <state width="1398" height="387" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1611694123300" />
+    <state x="257" y="123" key="Maven.ArtifactSearchDialog" timestamp="1613939533138">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="257" y="123" key="Maven.ArtifactSearchDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613939533138" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1613921790584">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613921790584" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1613943000242">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613943000242" />
+    <state x="143" y="84" key="new project wizard" timestamp="1610916140533">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="143" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1610916140533" />
+    <state x="396" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1613936933341">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="396" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613936933341" />
+    <state x="396" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1611003642365" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/multiplication$MultiplicationApplication.ic" NAME="MultiplicationApplication Coverage Results" MODIFIED="1613940794317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gosia.multiplication.security.*</FILTER>
+    </SUITE>
+  </component>
+</project>
