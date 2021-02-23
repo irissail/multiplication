@@ -30,7 +30,7 @@ public class LoginController {
 
     @PostMapping("/save_user")
     public String saveUser(@ModelAttribute @Valid UserDTO userDTO, BindingResult bindingResult, Model model) {
-        if(bindingResult.hasErrors()){
+        if (bindingResult.hasErrors()) {
             model.addAttribute("user", userDTO);
             return "registration";
         }
@@ -45,5 +45,6 @@ public class LoginController {
         }
         return "redirect:/login";
     }
+
 }
 

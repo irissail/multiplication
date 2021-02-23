@@ -1,16 +1,31 @@
 package com.gosia.multiplication;
 
+import com.gosia.multiplication.security.UserDTO;
+import org.springframework.security.authentication.AbstractAuthenticationToken;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.time.Duration;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
 
 @Controller
 public class QuestionController {
 
+    private final ScoreService scoreService;
+
     Quiz form = new Quiz();
+
+    public QuestionController(ScoreService scoreService) {
+        this.scoreService = scoreService;
+    }
 
     @GetMapping("/")
     public String main() {
@@ -44,12 +59,33 @@ public class QuestionController {
             isQuizOnTime(durationSeconds(form, formBack), limit); //czy quiz wykonany w czasie
             model.addAttribute("isQuizCorrect", isQuizCorrect(formBack));
             model.addAttribute("isQuizOnTime", isQuizOnTime(durationSeconds(form, formBack), limit));
+
+            if (isQuizCorrect(formBack) && isQuizOnTime(durationSeconds(form, formBack), limit)) {
+                AbstractAuthenticationToken authenticationToken = (AbstractAuthenticationToken) SecurityContextHolder.getContext().getAuthentication();
+                UserDTO currentUser = (UserDTO) authenticationToken.getPrincipal();
+                Score score = new Score(currentUser.getEmail(), formBack.getQuestions().get(0).getTimeOfQuestion(), durationSeconds(form, formBack), durationNano(form, formBack), 'B');
+                scoreService.save(score);
+            }
+
             form.getQuestions().clear();
             return "result";
+
         } catch (IndexOutOfBoundsException e) {
             e.printStackTrace();
             return "redirect:/basic";
         }
+    }
+
+    @GetMapping("/rankingBasic")
+    public String rankingBasic(Model model) {
+        model.addAttribute("top", getRankingBasic());
+        return "ranking";
+    }
+
+    @GetMapping("/rankingMaster")
+    public String rankingMaster(Model model) {
+        model.addAttribute("top", getRankingMaster());
+        return "ranking";
     }
 
     @PostMapping("/resultMaster")
@@ -63,6 +99,12 @@ public class QuestionController {
             isQuizOnTime(durationSeconds(form, formBack), limit); //czy quiz wykonany w czasie
             model.addAttribute("isQuizCorrect", isQuizCorrect(formBack));
             model.addAttribute("isQuizOnTime", isQuizOnTime(durationSeconds(form, formBack), limit));
+            if (isQuizCorrect(formBack) && isQuizOnTime(durationSeconds(form, formBack), limit)) {
+                AbstractAuthenticationToken authenticationToken = (AbstractAuthenticationToken) SecurityContextHolder.getContext().getAuthentication();
+                UserDTO currentUser = (UserDTO) authenticationToken.getPrincipal();
+                Score score = new Score(currentUser.getEmail(), formBack.getQuestions().get(0).getTimeOfQuestion(), durationSeconds(form, formBack), durationNano(form, formBack), 'M');
+                scoreService.save(score);
+            }
             form.getQuestions().clear();
             return "result";
         } catch (IndexOutOfBoundsException e) {
@@ -87,6 +129,7 @@ public class QuestionController {
         }
         return form;
     }
+
 
     private Quiz levelMaster() {
         List<Integer> answers = new ArrayList<>(); //lista pomocnicza odpowiedzi, aby uniknac dubli w pytaniach
@@ -140,4 +183,15 @@ public class QuestionController {
         if (durationSeconds <= limit) pass = true;
         return pass;
     }
+
+    private List<Score> getRankingBasic() {
+        return scoreService.getScoreList().stream().filter(f -> f.getLevel() == 'B').sorted(Comparator.comparingLong(Score::getDurationSecond)).
+                sorted(Comparator.comparingLong(Score::getDurationNano)).collect(Collectors.toList());
+    }
+
+    private List<Score> getRankingMaster() {
+        return scoreService.getScoreList().stream().filter(f -> f.getLevel() == 'M').sorted(Comparator.comparingLong(Score::getDurationSecond)).
+                sorted(Comparator.comparingLong(Score::getDurationNano)).collect(Collectors.toList());
+    }
 }
+

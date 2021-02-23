@@ -37,8 +37,16 @@
                         Ranking
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Top 10 - Poziom 1</a></li>
-                        <li><a class="dropdown-item" href="#">Top 10 - Poziom 2</a></li>
+                        <li><a class="dropdown-item" href="#">
+                            <form action="/rankingBasic">
+                                <button type="submit" class="btn btn-info">Ranking Poziom Podstawowy</button>
+                            </form>
+                        </a></li>
+                        <li><a class="dropdown-item" href="#">
+                            <form action="/rankingMaster">
+                                <button type="submit" class="btn btn-warning">Ranking Poziom Zaawansowany</button>
+                            </form>
+                        </a></li>
                     </ul>
                 </li>
             </ul>
