@@ -21,15 +21,28 @@
   <component name="ChangeListManager">
     <list default="true" id="1637733d-6aef-4dbe-b90c-d085d1d461f9" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/QuestionController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/QuizGenerated.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/QuizValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/repository/ScoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/controller/QuestionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/Quiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/QuizGenerated.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/QuizValidation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/repository/ScoreRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/service/ScoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/QuestionController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/Quiz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/Score.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/ScoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/repository/ScoreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/ScoreRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/ScoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/service/ScoreService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/config/SecurityConfig.java" afterDir="false" />
@@ -37,15 +50,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/Question.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/QuestionController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Score.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/Score.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/ScoreRepository.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/ScoreService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/LoginController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/DTO/UserDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/UserRepository.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/UserService.class" beforeDir="false" />
     </list>
