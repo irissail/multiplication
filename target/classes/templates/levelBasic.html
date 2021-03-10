@@ -41,6 +41,7 @@ document.getElementById("timer").innerHTML = seconds;
         <input hidden th:name="|questions[${itemStat.index}].number1|" th:value="${question.getNumber1()}"/>
         <input hidden th:name="|questions[${itemStat.index}].number2|" th:value="${question.getNumber2()}"/>
         <input hidden th:name="|questions[${itemStat.index}].answer|" th:value="${question.getAnswer()}"/>
+        <input hidden th:name="|questions[${itemStat.index}].userDTOOwner|" th:value="${question.getUserDTOOwner()}"/>
         <span class="input-group-text">
             <div th:text="${question.number1}"/></span>
         <span class="input-group-text">*</span>

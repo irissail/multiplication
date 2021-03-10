@@ -13,6 +13,7 @@ public class Question {
     private Integer answerUser;
     private LocalDateTime timeOfQuestion = LocalDateTime.now();
     private boolean correct;
+    private String userDTOOwner;
 }
 
 

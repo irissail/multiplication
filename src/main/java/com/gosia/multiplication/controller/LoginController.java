@@ -1,6 +1,6 @@
 package com.gosia.multiplication.controller;
 
-import com.gosia.multiplication.DTO.UserDTO;
+import com.gosia.multiplication.model.UserDTO;
 import com.gosia.multiplication.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;

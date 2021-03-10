@@ -1,4 +1,4 @@
-package com.gosia.multiplication.DTO;
+package com.gosia.multiplication.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

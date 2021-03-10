@@ -1,7 +1,7 @@
 package com.gosia.multiplication.repository;
 
 
-import com.gosia.multiplication.DTO.UserDTO;
+import com.gosia.multiplication.model.UserDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

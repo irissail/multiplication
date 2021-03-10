@@ -1,6 +1,6 @@
 package com.gosia.multiplication.service;
 
-import com.gosia.multiplication.DTO.UserDTO;
+import com.gosia.multiplication.model.UserDTO;
 import com.gosia.multiplication.repository.UserRepository;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -20,7 +20,7 @@ public class UserService implements UserDetailsService {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
-    private UserDTO currentUser;
+    private String emailCurrentUser;
 
 
     @Transactional
@@ -37,13 +37,21 @@ public class UserService implements UserDetailsService {
         return userRepository.findByEmail(email) != null;
     }
 
-    @Transactional
+
+   @Transactional
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-        currentUser = userRepository.findByEmail(email);
-        return currentUser;
+        if(userExist(email)) {
+            emailCurrentUser = email;
+            return userRepository.findByEmail(email);
+        } else {
+            throw new UsernameNotFoundException("Nie istnieje użytkownik o danym adresie email: " + email);
+        }
     }
 
+    public UserDTO getCurrentUser(){
+        return emailCurrentUser != null && !emailCurrentUser.isEmpty() ? userRepository.findByEmail(emailCurrentUser) : null;
+    }
 
 
 }

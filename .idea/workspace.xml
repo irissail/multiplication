@@ -20,47 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1637733d-6aef-4dbe-b90c-d085d1d461f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/QuestionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/QuizGenerated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/QuizValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/repository/ScoreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/config/AppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/controller/QuestionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/Quiz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/QuizGenerated.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/QuizValidation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/repository/ScoreRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/service/ScoreService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/QuestionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/Score.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/ScoreRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/ScoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/service/ScoreService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/DTO/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/security/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/QuestionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/Score.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/ScoreRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/ScoreService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/DTO/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/security/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/DTO/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/model/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gosia/multiplication/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/levelBasic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/levelBasic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/levelMaster.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/levelMaster.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/DTO/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/controller/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gosia/multiplication/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/levelBasic.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/levelBasic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/levelMaster.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/levelMaster.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,36 +169,36 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="483" y="172" key="#xdebugger.evaluate/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1611523152253" />
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1614965917923">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1615412051713">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614965917923" />
     <state width="1878" height="224" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1614957816676" />
-    <state width="1089" height="216" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1614963524186" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1615412051713" />
     <state width="1804" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614931891998" />
     <state width="1398" height="377" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1613773634887" />
-    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1614965917920">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1615412051712">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="216" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614965917920" />
     <state width="1878" height="224" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1614957816672" />
-    <state width="1089" height="216" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1614963524183" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1615412051712" />
     <state width="1804" height="304" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614931891997" />
     <state width="1398" height="377" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1613773634886" />
-    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1614965917918">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1615412051711">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="216" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614965917918" />
     <state width="1878" height="224" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1614957816671" />
-    <state width="1089" height="216" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1614963524175" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1615412051711" />
     <state width="1804" height="304" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614931891997" />
     <state width="1398" height="377" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1613773634885" />
-    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1614965917921">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1615412051713">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="216" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614965917921" />
     <state width="1878" height="224" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1614957816674" />
-    <state width="1089" height="216" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1614963524184" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1615412051713" />
     <state width="1804" height="304" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614931891998" />
     <state width="1398" height="377" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1613773634887" />
     <state width="1398" height="387" key="GridCell.Tab.1.bottom" timestamp="1613679896723">
@@ -257,9 +233,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1613943000242" />
-    <state x="143" y="84" key="new project wizard" timestamp="1610916140533">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="1631" y="97" key="new project wizard" timestamp="1615066516927">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state x="1631" y="97" key="new project wizard/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1615066516927" />
     <state x="143" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1610916140533" />
     <state x="396" y="206" width="670" height="694" key="search.everywhere.popup" timestamp="1614964175644">
       <screen x="0" y="0" width="1440" height="900" />
