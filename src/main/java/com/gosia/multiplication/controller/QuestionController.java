@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import javax.transaction.Transactional;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -27,6 +28,7 @@ public class QuestionController {
         return "main";
     }
 
+    @Transactional
     @GetMapping("/basic")
     public String basic(Model model) {
         form = QuizGenerated.levelBasic();
@@ -37,6 +39,7 @@ public class QuestionController {
         return "levelBasic";
     }
 
+    @Transactional
     @GetMapping("/master")
     public String master(Model model) {
         form = QuizGenerated.levelMaster();
@@ -46,7 +49,7 @@ public class QuestionController {
         model.addAttribute("form", form);
         return "levelMaster";
     }
-
+@Transactional
     @PostMapping("/resultBasic")
     public String resultBasic(Model model, @ModelAttribute Quiz formBack) {
         try {
@@ -70,7 +73,7 @@ public class QuestionController {
         }
 
     }
-
+@Transactional
     @PostMapping("/resultMaster")
     public String resultMaster(Model model, @ModelAttribute Quiz formBack) {
         try {
